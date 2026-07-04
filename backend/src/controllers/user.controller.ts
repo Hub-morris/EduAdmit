@@ -1,5 +1,5 @@
 import type { Response, NextFunction } from "express";
-import { AuthenticatedRequest } from "../middleware/auth.middleware.js";
+import type { AuthenticatedRequest } from "../middleware/auth.middleware.js";
 import { getUserById } from "../services/user.service.js";
 
 export const getUserProfile = async (
